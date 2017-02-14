@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+
+    <link rel="import" href="sections/menus/menus.html">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <style type="text/css">
+      #webSrc {
+        width: 200px;
+        height: 500px;
+        border: 2px #5CC9F5 solid;
+        word-break: normal;
+      }
+
+    </style>
+  </head>
+  <body>
+  <h1>京东图片下载</h1>
+  <textarea id="webSrc" ></textarea>
+  <button id="picDown">开始下载</button>
+
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+    require('./assets/imports')
+    require('./picdown.js')
+
+
+
+  </script>
+</html>

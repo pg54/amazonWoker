@@ -1,0 +1,59 @@
+<template class="task-tempalte">
+    <section id="windows-section" class="section js-section u-category-windows">
+        <div id="wrap">
+            <div id="mainInfo">
+                <p id="link">link:<input type="text"></p>
+                <p id="cost"><input type="text">RMB</p>
+                <p id="description">product description ：<input type="text"></p>
+
+                <p id="productMaterial">product material:<input type="text"></p>
+
+                <p id="productColor">product Color:<input type="text"></p>
+                <p>Selling</p>
+                <h5>
+                    <p id="selling1">1.<input type="text" list="sellPoint1">
+                        <datalist id="sellPoint1">
+                            <option label="HZ赫兹工作室" value="http://weibo.com/hz421247910"/>
+                            <option label="提示1" value="列表项1"/>
+                            <option label="提示2" value="列表项2"/>
+                            <option label="" value="列表项3"/>
+                        </datalist>
+                    </p>
+                </h5>
+                <p id="selling2">2.<input type="text" list="sellPoint2">
+                    <datalist id="sellPoint2">
+                        <option label="HZ赫兹工作室" value="http://weibo.com/hz421247910"/>
+                        <option label="提示1" value="列表项1"/>
+                        <option label="提示2" value="列表项2"/>
+                        <option label="" value="列表项3"/>
+                    </datalist>
+                </p>
+                <p id="selling3">3.</p>
+                <p id="selling4">4.<input type="text" list="sellPoint4">
+                    <datalist id="sellPoint4">
+                        <option label="HZ赫兹工作室" value="http://weibo.com/hz421247910"/>
+                        <option label="提示1" value="列表项1"/>
+                        <option label="提示2" value="列表项2"/>
+                        <option label="" value="列表项3"/>
+                    </datalist>
+                </p>
+                <p>Package included: </p>
+                <p id="packageMain">1*</p>
+                <p id="packageBox">1*gift box</p>
+
+                <p>Size information: </p>
+            </div>
+            <div id="infoBefore"></div>
+        </div>
+        <input type="button" id="tranIn" value="单位转换">
+        <input type="button" id="dataOut" value="输出数据">
+        <input type="button" id="addUnit" value="增加">
+        <input type="button" id="setForm" value="设置表格">
+        <div id="sizeInfo">
+            <input id="size1"><input id="size2"><br/>
+            <input class="sizeUnit"><input class="sizeUnit">
+        </div>
+        <div id="infoAfter"></div>
+        <div id="infoEnd"></div>
+    </section>
+</template>
